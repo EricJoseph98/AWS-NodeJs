@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>AngularJS First Application</title>
+   </head>
+   
+   <body>
+      <h1>Sample Application</h1>
+      
+	  <form id="Form1" method="post" action="/submitData">
+      <div ng-app = "">
+		<p>Enter name : <input name = "nameText" type="text" ng-model="name"></p>
+		<p>Name is <span ng-bind = "name"></span></p>
+	  
+		<p>Enter phone number : <input name = "phoneNumber" type="phone" ng-model="phone"></p>
+		<p>Phone number is <span ng-bind="phone"></span></p>
+	  </div>
+	  
+	  <button name="submitDetails" type="submit">Submit Details</button>
+	  </form>
+	  
+      <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js">
+      </script>
+      
+   </body>
+</html>

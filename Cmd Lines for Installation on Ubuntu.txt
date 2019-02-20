@@ -1,0 +1,12 @@
+sudo apt-get update
+sudo apt install nodejs-legacy
+sudo npm init
+sudo apt-get install python
+sudo apt-get install default-jdk
+npm install express
+sudo npm install nodemailer
+sudo npm install body-parser
+
+
+
+https://github.com/EricJoseph98/AWS-NodeJs.git
