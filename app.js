@@ -4,9 +4,8 @@ var app = express();
 var bodyparser = require('body-parser');
 app.use(bodyparser.urlencoded({ extended : false}));
 
-var nodemailer = require('nodemailer');
-
 /*
+var nodemailer = require('nodemailer');
 var transporter = nodemailer.createTransport({
   service: 'gmail',
   port: 25,
